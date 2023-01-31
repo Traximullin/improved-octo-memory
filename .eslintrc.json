@@ -1,3 +1,26 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "@typescript-eslint/quotes": "off",
+    "indent": ["warn", 4],
+    "no-tabs": "off",
+    "padded-blocks": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/prefer-nullish-coalescing": "off",
+    "@typescript-eslint/comma-dangle": "off",
+    "quotes": ["error", "double"],
+    "jsx-quotes": ["error", "prefer-double"],
+    "react-hooks/rules-of-hooks": "error",
+    "react/react-in-jsx-scope": "off",
+    "max-len": ["warn", { "code": 120 , "ignoreUrls": true}],
+    "no-unused-vars": "warn",
+    "comma-dangle": ["warn", {
+        "arrays": "never",
+        "objects": "always",
+        "imports": "never",
+        "exports": "never",
+        "functions": "never"
+  }]
+  }
 }
