@@ -1,0 +1,21 @@
+
+.sidebar {
+    justify-content: space-between;
+    padding: 24px 21px;
+    width: 90px;
+    height: 100vh;
+    color: white;
+    background-color: #1C1D22;
+
+    &, &__navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__navigation {
+        gap: 35px;
+    }
+
+
+}
