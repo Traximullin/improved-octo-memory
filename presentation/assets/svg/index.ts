@@ -1,0 +1,8 @@
+export { default as logoSvg } from "./logo.svg"
+export { default as cloudSvg } from "./cloud.svg"
+export { default as chartsSvg } from "./charts.svg"
+export { default as canbanSvg } from "./canban.svg"
+export { default as calendarSvg } from "./calendar.svg"
+export { default as mapsSvg } from "./maps.svg"
+export { default as profileSvg } from "./profile.svg"
+export { default as settingSvg } from "./settings.svg"
