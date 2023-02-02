@@ -1,6 +1,6 @@
 import { FC } from "react"
 import Head from "next/head"
-import { Sidebar } from "@/presentation/components"
+import { Sidebar, Projects } from "@/presentation/components"
 
 const Home: FC = () => (
     <>
@@ -11,7 +11,10 @@ const Home: FC = () => (
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <main>
-            <Sidebar />
+            <div style={{display: "flex",}}>
+                <Sidebar />
+                <Projects />
+            </div>
         </main>
     </>
 )
