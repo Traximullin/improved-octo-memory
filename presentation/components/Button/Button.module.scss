@@ -1,4 +1,17 @@
 
 .button {
-    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.08);
+    color: #FFFFFF;
+    padding: 10px;
+
+    &_theme {
+
+        &_circle {
+            border-radius: 50%;
+        }
+
+    }
 }
