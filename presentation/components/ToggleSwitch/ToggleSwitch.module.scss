@@ -1,0 +1,52 @@
+
+.toggle-switch {
+
+    &__checkbox {
+        display: none;
+        &:checked ~ .toggle-switch__label {
+            .toggle-switch__switch {
+                background: rgba(255, 255, 255, 0.06);
+                box-shadow: 0px 8px 6px rgba(28, 29, 34, 0.16);
+                color: #FFFFFF;
+            }
+            .toggle-switch__inner {
+                background: transparent;
+                box-shadow: none;
+                color: rgba(255, 255, 255, 0.5);
+            }
+        }
+    }
+
+    &__label {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        position: relative;
+        border-radius: 22px;
+        padding: 4px;
+        background: rgba(255, 255, 255, 0.04);
+        &::before {
+            content: "";
+            width: 50%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+    }
+
+    &__label-item {
+        border-radius: 18px;            
+        user-select: none;
+        width: 100%;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+        padding: 7px 35px;
+    }
+
+    &__inner {
+        background: rgba(255, 255, 255, 0.06);
+        color: #FFFFFF;
+        box-shadow: 0px 8px 6px rgba(28, 29, 34, 0.16);
+    }
+}

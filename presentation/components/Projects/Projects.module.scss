@@ -1,4 +1,7 @@
 .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 318px;
     height: 100vh;
     background: #222327;
@@ -7,6 +10,7 @@
     &__header {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 38px;
     }
 
     &__title {
