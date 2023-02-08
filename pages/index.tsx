@@ -1,6 +1,6 @@
 import { FC } from "react"
 import Head from "next/head"
-import { Sidebar, Projects } from "@/presentation/components"
+import { Sidebar, Projects, Header } from "@/presentation/components"
 
 const Home: FC = () => (
     <>
@@ -14,6 +14,9 @@ const Home: FC = () => (
             <div style={{display: "flex",}}>
                 <Sidebar />
                 <Projects />
+                <div style={{width:"100%",}}>
+                    <Header />
+                </div>
             </div>
         </main>
     </>
