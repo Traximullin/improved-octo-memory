@@ -1,0 +1,23 @@
+
+.notifications {
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    
+    &__icon {
+        width: 16.5px;
+        height: 6px;
+        height: 18.3px;
+    }
+    &::before {
+        top: 0;
+        right: 1.5px;
+        border: 1px solid #2A2B2F;
+        position: absolute;
+        border-radius: 50%;
+        content: "";
+        width: 6px;
+        height: 6px;
+        background-color: #FFA048;
+    }
+}
