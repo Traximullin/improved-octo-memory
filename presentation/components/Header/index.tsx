@@ -1,5 +1,5 @@
 import { FC } from "react"
-import { Avatar, Notifications } from "../index"
+import { Avatar, Notifications, Search } from "../index"
 import styles from "./Header.module.scss"
 
 const Header: FC = () => {
@@ -7,7 +7,7 @@ const Header: FC = () => {
         <div className={styles.header}>
             <p className={styles.header__title}>Welcome back, Vincent 👋</p>
             <div className={styles.header__right}>
-                <div>1</div>
+                <Search />
                 <Notifications />
                 <Avatar />
             </div>
